@@ -146,7 +146,7 @@ def main():
     print("Test Summary")
     print("="*60)
     for task_name, success in results:
-        status = "✓ PASS" if success else "✗ FAIL"
+        status = "PASS" if success else "FAIL"
         print(f"{task_name}: {status}")
     
     total = len(results)
